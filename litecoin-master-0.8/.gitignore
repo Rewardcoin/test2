@@ -1,0 +1,34 @@
+src/*.exe
+src/tongbaocoin
+src/tongbaocoind
+src/test_tongbaocoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.tongbaocoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+tongbaocoin-qt
+tongbaocoin-Qt.app
+
+# Unit-tests
+Makefile.test
+tongbaocoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
